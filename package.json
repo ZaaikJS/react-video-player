@@ -1,6 +1,6 @@
 {
   "name": "@zaaik/react-video-player",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A custom React Video Player component",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -9,6 +9,11 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZaaikJS/react-video-player.git"
+  },
+  "homepage": "https://github.com/ZaaikJS/react-video-player#readme",
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
@@ -20,7 +25,8 @@
   },
   "files": [
     "dist",
-    "style.css"
+    "style.css",
+    "README.md"
   ],
   "keywords": [
     "react",
